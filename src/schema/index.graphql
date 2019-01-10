@@ -1,0 +1,6 @@
+# import Employee from 'employee.graphql'
+
+type Query {
+  hello: String
+  employees: [Employee]
+}
