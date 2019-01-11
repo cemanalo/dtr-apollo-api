@@ -1,9 +1,9 @@
 type Employee {
-  fname: String
-  lname: String
+  firstName: String
+  lastName: String
 }
 
 input EmployeeInput {
-  fname: String!
-  lname: String!
+  firstName: String!
+  lastName: String!
 }
