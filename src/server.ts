@@ -1,4 +1,4 @@
-import { ApolloServer, gql } from 'apollo-server-express'
+import { ApolloServer } from 'apollo-server-express'
 import { importSchema } from 'graphql-import'
 import { makeExecutableSchema } from 'graphql-tools'
 

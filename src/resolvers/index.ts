@@ -1,9 +1,12 @@
 import hello from './hello'
-import employees from './employees'
+import { employees, addEmployee } from './employees'
 
 export default {
   Query: {
     hello,
     employees
+  },
+  Mutation: {
+    addEmployee
   }
 }
